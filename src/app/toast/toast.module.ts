@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CommonModule } from '@angular/common';
-import { ToastContainerComponent } from './component/toast-container/toast-container.component';
-import { ToastComponent } from './component/toast/toast.component';
+import { ToastContainerComponent } from './components/toast-container/toast-container.component';
+import { ToastComponent } from './components/toast/toast.component';
 import { ToastService } from './services/toast.service';
 
 @NgModule({

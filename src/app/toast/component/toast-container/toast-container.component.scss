@@ -1,0 +1,21 @@
+.toast {
+  &-entry {
+    position: relative;
+  }
+  &-container {
+    box-sizing: border-box;
+    position: fixed;
+    width: 20rem;
+    bottom: 0;
+    right: 0;
+    padding: 1rem;
+    margin: 0;
+    list-style: none;
+  }
+
+  &:not(:nth-last-child(1)) {
+    margin-bottom: 1rem;
+  }
+
+  transition: all 200ms ease-out;
+}

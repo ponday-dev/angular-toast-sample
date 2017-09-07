@@ -1,0 +1,8 @@
+<div class="toast-entry">
+  <ul class="toast-container" *ngIf="(toasts$ | async) as options">
+    <li *ngFor="let option of options"
+      toast [option]="option"
+      class="toast"
+      [@inOut]="'in'"></li>
+  </ul>
+</div>
